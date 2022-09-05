@@ -18,5 +18,5 @@ Create a **menu-driven console application** with the following operations:
 - display the list of isolated vertices;
 - find the connected components of an undirected graph using a breadth-first traversal of the graph;
 - find a lowest cost walk between the given vertices, using a "backwards" Dijkstra algorithm (Dijkstra algorithm that searches backwards, from the ending vertex);
-- verify if the corresponding graph is a DAG and performs a topological sorting of the activities using the algorithm based on depth-first traversal (Tarjan's algorithm); if it is a DAG, finds a highest cost path between two given vertices, in O(m+n);
+- verify if the corresponding graph is a DAG (Directed Acyclic Graph) and performs a topological sorting of the activities using the algorithm based on depth-first traversal (Tarjan's algorithm); if it is a DAG, finds a highest cost path between two given vertices, in O(m+n);
 - given a digraph with costs and two vertices, find a minimum cost path between them (negative cost cycles may exist in the graph);
